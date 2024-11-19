@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="994.0" prefWidth="1914.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewcontroller.ClienteViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="994.0" layoutX="-13.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="1926.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.9514563106796117">
+               <stops>
+                  <Stop color="#b0e8ff" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5dbff" height="178.0" layoutX="29.0" layoutY="34.0" stroke="BLACK" strokeType="INSIDE" width="1842.0" />
+      <ImageView fitHeight="114.0" fitWidth="293.0" layoutX="738.0" layoutY="66.0">
+         <image>
+            <Image url="@../../../../../../../../../../../Imágenes/Screenshots/Captura%20de%20pantalla%202024-11-17%20120357.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="200.0" layoutX="981.0" layoutY="75.0">
+         <image>
+            <Image url="@../../../../../../../../../../../Imágenes/Screenshots/Captura%20de%20pantalla%202024-11-17%20123242.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5dbff" height="595.0" layoutX="31.0" layoutY="312.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="8.0" width="1836.0" />
+      <TableView fx:id="tableClienteReservas" layoutX="37.0" layoutY="320.0" prefHeight="580.0" prefWidth="1823.0">
+         <columns>
+            <TableColumn fx:id="columnIDTransaccion" prefWidth="181.0" text="ID Transacción" />
+            <TableColumn fx:id="columnFecha" prefWidth="219.0" text="Fecha" />
+            <TableColumn fx:id="columnPrecioTotal" minWidth="0.0" prefWidth="179.0" text="Precio Total $" />
+            <TableColumn fx:id="columnNombreEmpleado" prefWidth="270.0" text="Nombre Empleado" />
+            <TableColumn fx:id="columnVehiculo" prefWidth="128.0" text="Vehiculo" />
+            <TableColumn fx:id="columnFechaDevolucion" prefWidth="247.0" text="Fecha de Devolución" />
+            <TableColumn fx:id="columnDuracionAlquiler" prefWidth="197.0" text="Duración Alquiler" />
+            <TableColumn fx:id="columnMetodoDePago" prefWidth="240.0" text="Método de Pago" />
+            <TableColumn fx:id="columnGarantia" prefWidth="161.0" text="Garantía" />
+         </columns>
+      </TableView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="1692.0" layoutY="925.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="2.0" width="174.0" />
+      <Label layoutX="1707.0" layoutY="938.0" text="cerrar sesion">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCerrarSesion1" layoutX="1693.0" layoutY="925.0" mnemonicParsing="false" onAction="#cerrarSesion" opacity="0.0" prefHeight="45.0" prefWidth="178.0" text="Cerrar Sesion" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5dbff" height="45.0" layoutX="31.0" layoutY="275.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="8.0" width="1836.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c8c9c9" height="38.0" layoutX="37.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" width="1823.0" />
+      <Label layoutX="819.0" layoutY="279.0" text="transacciones">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
